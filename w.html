@@ -1,0 +1,66 @@
+<!-- This is the HTML document declaration -->
+<!DOCTYPE html>
+<html>
+  <!-- This is the head section of the HTML document -->
+  <head>
+    <!-- This sets the character encoding for the document -->
+    <meta charset="UTF-8">
+    <!-- This sets the viewport settings for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This sets the title of the page -->
+    <title>Weather App - Easy Tutorials</title>
+    <!-- This links to an external stylesheet -->
+    <link rel="stylesheet" href="w.css">
+  </head>
+  <!-- This is the body section of the HTML document -->
+  <body>
+    <!-- This is a container element for the weather app -->
+    <div class="card">
+      <!-- This is a container element for the search input and button -->
+      <div class="search">
+        <!-- This is the input field for the city name -->
+        <input type="text" id="name" name="name" placeholder="Enter a city name" autocomplete="name">
+        <!-- This is the search button -->
+        <button><img src="s.png" ></button>
+      </div>
+      <!-- This is a container element for the weather information -->
+      <div class="weather">
+        <!-- This is a line break -->
+        <br>
+        <!-- This displays the current temperature -->
+        <h1 class="temp">22°c</h1>
+        <!-- This displays the city name -->
+        <h2 class="city">New York</h2>
+        <!-- This is a container element for the weather details -->
+        <div class="details">
+          <!-- This is a container element for the humidity information -->
+          <div class="col">
+            <!-- This is an image for the humidity icon -->
+            <img src="hum.png" >
+            <!-- This is a container element for the humidity text -->
+            <div>
+              <!-- This displays the humidity percentage -->
+              <p class="Humidity">50%</p>
+              <!-- This displays the humidity label -->
+              <p>Humidity</p>
+            </div>
+          </div>
+          <!-- This is a container element for the wind speed information -->
+          <div class="col">
+            <!-- This is an image for the wind speed icon -->
+            <img src="winimg.jpeg" height="70px">
+            <!-- This is a container element for the wind speed text -->
+            <div>
+              <!-- This displays the wind speed percentage -->
+              <p class="Wind">50%</p>
+              <!-- This displays the wind speed label -->
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- This links to an external JavaScript file -->
+    <script src="w.js"></script>
+  </body>
+</html>

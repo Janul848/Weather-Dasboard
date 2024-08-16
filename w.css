@@ -1,0 +1,103 @@
+/* This sets the background gradient for the body */
+body{
+    background: linear-gradient(#FFF9D0, #CAF4FF, #A0DEFF, #5AB2FF);
+    background-repeat: no-repeat;
+}
+
+/* This styles the card container */
+.card{
+    width: 90%;
+    max-width: 470px;
+    /* This sets the background gradient for the card */
+    background: linear-gradient(135deg, #B799FF, #ACBCFF, #AEE2FF, #E6FFFD);
+    color: #fff;
+    margin: 100px auto 100px;
+    border-radius:20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* This styles the search container */
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* This styles the search input field */
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+/* This styles the search button */
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: #ebfffc;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+/* This styles the search button image */
+.search button img{
+    width: 16px;
+}
+
+/* This styles the weather icon */
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+/* This styles the weather heading */
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+/* This styles the weather subheading */
+.weather h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+/* This styles the details container */
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+/* This styles the column container */
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+/* This styles the column image */
+.col img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* This styles the humidity and wind text */
+.humidity, .wind{
+    font-size: 35px;
+    margin-top: -6px;
+}
